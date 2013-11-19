@@ -57,7 +57,7 @@ grunt uglify
 grunt cssmin
 ```
 
-#generate handlebar templates
+#compile handlebar templates
 ```
 grunt handlebars
 ```
