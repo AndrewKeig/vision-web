@@ -84,11 +84,20 @@ In order to acquire a GitHub token, log in to your GitHub account and go to the 
 
 Now click on **Create new token**, name the token if you prefer. Click on the **copy to clipboard button** in order to copy the token into the following login.
 
+Now add the clientId and clientSecret to your config file
+
+```
+"auth": {
+    "homepage": "https://web.vision.net:8443"
+  , "callback": "https://web.vision.net:8443/auth/github/callback"
+  , "clientId": "5bb691b4ebb5417f4ab9"
+  , "clientSecret": "44c16f4d81c99e1ff5f694a532833298cae10473"
+  },
+```
 
 #run vision with stud terminating ssl
 ```
 stud --config=stud.conf
-
 hipache --config ./config/server-no-ssl.json
 hipache --config ./config/server.json
 
