@@ -1,10 +1,22 @@
 {
   "name": "vision-web",
-  "version": "0.0.0",
-  "private": true,
+  "description": "This module contains the source code for Advanced Express Web Application Development.",
+  "homepage": "https://github.com/AndrewKeig/vision-web",
+  "version": "0.0.1",
+  "author": {
+    "name": "Andrew Keig",
+    "email": "andrew.keig@gmail.com"
+  },
   "scripts": {
     "start": "node app.js",
     "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewkeig/vision-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndrewKeig/vision-web/issues"
   },
   "dependencies": {
     "vision-core": "git://github.com/AndrewKeig/vision-core.git#master",
@@ -39,5 +51,9 @@
     "grunt-contrib-uglify": "~0.2.4",
     "grunt-contrib-cssmin": "~0.6.2",
     "cucumber": "~0.3.1"
-  }
+  },
+  "keywords": [
+    "express",
+    "boilerplate"
+  ]
 }
