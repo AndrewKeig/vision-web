@@ -2,7 +2,7 @@
   "name": "vision-web",
   "description": "This module contains the source code for Advanced Express Web Application Development.",
   "homepage": "https://github.com/AndrewKeig/vision-web",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Andrew Keig",
     "email": "andrew.keig@gmail.com"
